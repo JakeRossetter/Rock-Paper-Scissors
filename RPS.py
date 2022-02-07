@@ -56,10 +56,8 @@ while True:
     if p_choice == "exit":
         exit()
         break
-
     elif p_choice == c_choice:
         tie()
-
     elif p_choice == "rock":
         if c_choice == "paper":
             c_score += 1
@@ -67,7 +65,6 @@ while True:
         elif c_choice == "scissors":
             p_score += 1
             player_win()
-
     elif p_choice == "paper":
         if c_choice == "scissors":
             c_score += 1
@@ -75,7 +72,6 @@ while True:
         elif c_choice == "rock":
             p_score += 1
             player_win()
-
     elif p_choice == "scissors":
         if c_choice == "rock":
             c_score += 1
